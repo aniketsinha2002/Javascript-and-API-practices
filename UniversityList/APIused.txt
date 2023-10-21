@@ -1,0 +1,1 @@
+API USED => http://universities.hipolabs.com/search?name=nepal
