@@ -1,0 +1,59 @@
+body {
+  background-color: rgb(75, 67, 82);
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.box {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 20px;
+  width: 80%;
+  max-width: 400px;
+  text-align: center;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.518);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+h1 {
+  font-size: 2rem;
+  color: #fff;
+}
+
+button {
+  background: #007BFF;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+  margin: 20px 0;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+#res {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+  .box {
+    width: 90%;
+  }
+}
