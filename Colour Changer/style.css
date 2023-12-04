@@ -1,0 +1,9 @@
+button { padding: 10px 10px; }
+
+.container {
+    align-items: center;
+    display: flex;
+    flex-direction: column; /* Updated to a column layout */
+    justify-content: center;
+    height: 100vh;
+}
