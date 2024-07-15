@@ -1,10 +1,7 @@
-body{margin:0;display:flex;align-items:center;justify-content:center;height:100vh;background-color:#f8f8f8;font-family:'Arial',sans-serif}
-.container{text-align:center}
-input{padding:10px;margin-right:10px;border:1px solid #ccc;border-radius:5px}
-button{padding:10px 15px;cursor:pointer;background-color:#fff;color:#555;border:1px solid #ccc;border-radius:5px}
-button:hover{background-color:#eee}
-#list_container{margin-top:100px;display:flex;flex-direction:column;align-items:center;margin-left:100px;width:500px;height:200px;overflow-y:auto}
-.item-container{display:flex;align-items:center;justify-content:space-between;width:100%;box-sizing:border-box;padding:10px;background-color:#fff;border:1px solid #ccc;border-radius:5px;margin-bottom:10px;margin-left:10px}
-.item-container p{margin:0;flex-grow:1;text-align:left}
-.delete-btn{background-color:#fff;color:#555;border:1px solid #ccc;border-radius:5px;padding:5px 10px;cursor:pointer}
-.delete-btn:hover{background-color:#ffebee}
+#ok {
+  background-color: aqua;
+  /* padding-bottom: 50px; */
+  padding-top: 20px;
+  width: 20px;
+  height: 10px;
+}
