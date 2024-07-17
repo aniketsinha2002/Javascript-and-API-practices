@@ -1,0 +1,27 @@
+.App {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  height: 100vh;
+  border-radius: 40px;
+  box-shadow: 2px 4px rgb(57, 56, 56);
+  object-fit: cover;
+}
+
+button {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  border: none;
+  font-size: 20px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.btn-right {
+  right: 0;
+}
