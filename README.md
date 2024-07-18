@@ -7,5 +7,8 @@
 Replace the 'X' in the link following the instructions mentioned above (works only for projects in Vanilla JS).
 
 List of few Ones (recent)-
-
+### QUESTION 1 - https://frontendeval.com/questions/faq-component
 ![alt text](image.png)
+
+### QUESTION 2 - https://frontendeval.com/questions/modal-overlay
+![alt text](image-1.png)
