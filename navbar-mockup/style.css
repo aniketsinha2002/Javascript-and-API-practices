@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5%;
+  font-weight: 400;
+  color: #2f1793;
+  font-size: 1.25rem;
+  position: relative;
+}
+
+.navbar-title {
+  font-weight: bold;
+}
+
+.navbar-items {
+  display: flex;
+  gap: 2rem;
+  cursor: pointer;
+}
+
+.navbar-item-home:hover,
+.navbar-item-feature:hover,
+.navbar-item-blog:hover,
+.navbar-item-shop:hover {
+  color: #5f44c9;
+  transition: 0.5s ease;
+}
+
+.navbar-btns {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1.5rem;
+}
+
+.navbar-btn-signin,
+.navbar-btn-signup {
+  border-right: 0.0625rem solid #2f1793;
+  border-bottom: 0.0625rem solid #2f1793;
+  padding: 0.1rem 1rem;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  border-radius: 1.5rem;
+  cursor: pointer;
+}
+
+.navbar-btn-signin:hover,
+.navbar-btn-signup:hover {
+  background-color: #e8e7ed70;
+  transition: 0.5s ease;
+}
