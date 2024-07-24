@@ -1,25 +1,9 @@
 .container {
-  background-color: grey;
-  height: 400px;
-  width: 400px;
-  position: relative;
+  background-color: rgb(141, 141, 141);
 }
 
-.div1 {
-  background-color: rgba(247, 53, 9, 0.991);
-  height: 50px;
-  width: 50px;
-  position: absolute;
-  left: 400px;
-}
-
-.div2 {
-  background-color: rgb(6, 244, 54);
-  height: 60px;
-  width: 60px;
-}
-.div3 {
-  background-color: rgb(3, 99, 243);
-  height: 80px;
-  width: 80px;
+.item {
+  background-color: rgb(13, 235, 113);
+  border: 2px solid white;
+  display: inline;
 }
